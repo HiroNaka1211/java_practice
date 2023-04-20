@@ -1,3 +1,5 @@
+import java.util.Scanner;
+import java.util.*;
 
 class Practice {
     public static void main(String arg[]){
@@ -101,6 +103,11 @@ class Practice {
         //         System.out.println((i + "-" + j));
         //     }
         // }
-        
+         Scanner scanner = new Scanner(System.in);
+
+         System.out.print("ようこそ！\n名前を入力してください: "); 
+         String name = scanner.next();
+
+         Student student = new Student(name);
     }
 }
